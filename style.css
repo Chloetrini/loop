@@ -1,0 +1,472 @@
+body{
+    font-size: 15px;
+    font-family: 'alata';
+    font-weight: 400;
+    margin: 0;
+}
+h1{
+    font-family: 'Josefin sans';
+    font-weight: 300;
+}
+header{
+    background: url( '/images/desktop/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-position: bottom;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+nav img{
+     padding-top: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 8em 0 8em;
+}
+nav ul{
+    flex-basis: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav li>a{
+    text-decoration: none;
+    color: white;
+}
+.hea h1{
+    color: white;
+    font-size: 4.4em;
+    letter-spacing: 0.1em;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+.hea{
+    max-width: 44rem;
+    max-height: 20rem;
+    border: solid white;
+    margin: 5em 8em 0 8em;
+}
+.first{
+    min-height: 50vh;
+    width: 100%;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    max-width: 77rem;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    margin: 0;
+
+}
+.left{
+    width: 50%;
+    height: 20rem;
+    background-image: url('/images/desktop/image-interactive.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.right{
+    width: 40%;
+    min-height: 22rem;
+    background-color: white;
+    align-items:center ;
+    justify-content: center;
+    margin-left: -18em;
+    margin-top: 16em;
+    padding-left: 4em;
+    padding-top: 1em;
+}
+.right h1{
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13.5em;
+    letter-spacing: 0.2em;
+}
+.second button{
+    margin-top: 22px;
+    padding: 0 2em;
+    height: 30px;
+    background-color: white;
+}
+.third{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    margin: 4em 13.5em 5em 13.5em;
+}
+.deep{
+    background-image: url('/images/desktop/image-deep-earth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.night{
+    background-image: url('/images/desktop/image-night-arcade.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.soccer{
+    background-image: url('/images/desktop/image-soccer-team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.grid{
+    background-image: url('/images/desktop/image-grid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.from{
+    background-image: url('/images/desktop/image-from-above.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width : 100%;
+}
+.poc{
+    background-image: url('/images/desktop/image-pocket-borealis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.cur{
+    background-image: url('/images/desktop/image-curiosity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.mak{
+    background-image: url('/images/desktop/image-fisheye.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.third h1{
+    color: white;
+    font-size: 2.5em;
+    padding-left: 0.5em;
+    padding-top: 9em;
+    padding-bottom: 1em;
+    padding-right: 0;
+    margin: 0;
+}
+.grid h1{
+    padding-right: 1em;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    padding-top: 2em;
+}
+.a{
+    display: inline;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer li>a{
+    text-decoration: none;
+    color: white;
+}
+.c li{
+    margin: 0 1em;
+}
+.b img{
+    margin-left: 4em;
+}
+.d{
+    display: inline;
+}
+.e{
+    margin: 0 8em;
+    margin-bottom: 1.5em;
+}
+/* MEDIA QUERIES */
+
+@media (min-width:770px){
+    #ham{
+        display: none;
+    }
+    .bu{
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 770px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 12px;
+    }
+    nav ul{
+        display: none;
+    }
+    .raw{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    nav{
+        display: inline;
+    }
+    header{
+    background: url( '/images/mobile/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-position: bottom;
+    width: 100%;
+    }
+    .hea h1{
+        color: white;
+        font-size: 3em;
+        letter-spacing: 0.1em;
+        margin: 0.5em 0 0.5em 0.5em;
+    }
+    .hea{
+        max-width: 44rem;
+        max-height: 20rem;
+        border: solid white;
+        margin: 10em 2em 0em 2em;
+    }
+    .first{
+        min-height: 50vh;
+        width: 100%;
+        align-items: normal;
+        justify-content: normal;
+    }
+    .container{
+        max-width:77rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        justify-content: center;
+        padding: 0 3em;
+        margin: 5em 0
+    }
+    .left{
+        width: 100%;
+        height: 20rem;
+        background-image: url('/images/mobile/image-interactive.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .right{
+        width: 100%;
+        min-height: 10rem;
+        background-color:white;
+        text-align: center;
+        margin: 0;
+        padding-left: 0;
+    }
+    .second{
+        display: inline;
+        justify-content: space-between;
+        padding: 0;
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+    .second button{
+        display: none;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0.5em;
+        row-gap: 1em;
+        margin: 0;
+        padding: 3em ;
+    }
+    .deep{
+        background-image: url('/images/mobile/image-deep-earth.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .night{
+        background-image: url('/images/mobile/image-night-arcade.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .soccer{
+        background-image: url('/images/mobile/image-soccer-team.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .grid{
+        background-image: url('/images/mobile/image-grid.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .from{
+        background-image: url('/images/mobile/image-from-above.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width : 100%;
+    }
+    .poc{
+        background-image: url('/images/mobile/image-pocket-borealis.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .cur{
+        background-image: url('/images/mobile/image-curiosity.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .mak{
+        background-image: url('/images/mobile/image-fisheye.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .third h1{
+        font-size: 2.5em;
+        color: white;
+        padding: 2em 5em 1em 1em;
+    }
+    footer{
+        background-color: black;
+        color: rgb(14, 11, 11);
+        display: block;
+        height: 25rem;
+    }
+    .a{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{
+        display: block;
+        list-style: none;
+    }
+    .c li{
+        margin: 1em 0;
+    }
+    .c{
+        text-align: center;
+    }
+    .b {
+        text-align: center;
+    }
+    .e{
+        text-align: center;
+        margin: 2em 0 1.5em 5em;
+    }
+    .e img{
+        margin: 0 0.5em;
+    }
+    .f{
+        text-align: center;
+        margin: 0 0 1.5em 5em;
+    }
+    .bu{
+        background-color: white;
+        padding: 1em 5em;
+        letter-spacing: 0.5em;
+        word-spacing: 0.3;
+    }
+    .o{
+        text-align: center;
+        margin-bottom: 7em;
+    }
+}
+@media (min-width:770px)and (max-width: 1200px) {
+    html,body{
+            width: 100%;
+            overflow-x: hidden;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 1em;
+        row-gap: 1em;
+        margin: 4em 4em 5em 4em;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 3em 4em 0 4em;
+    }
+    
+    .hea{
+        max-width: 44rem;
+        max-height: 20rem;
+        border: solid white;
+        margin: 5em 4em 0 4em;
+        }
+        .second{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 4em;
+            letter-spacing: 0.2em;
+        }
+    }
+
+@media (min-width:770px)and (max-width: 900px) {
+    html,body{
+            width: 100%;
+            overflow-x: hidden;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 1em;
+        row-gap: 1em;
+        margin: 4em 2em 5em 2em;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 3em 2em 0 2em;
+    }
+    
+    .hea{
+        max-width: 44rem;
+        max-height: 20rem;
+        border: solid white;
+        margin: 5em 2em 0 2em;
+        }
+        .third h1{
+            color: white;
+            font-size: 2em;
+            padding-left: 0.5em;
+            padding-top: 5em;
+            padding-bottom: 1em;
+            padding-right: 0;
+            margin: 0;
+        }
+        .second{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2em;
+            letter-spacing: 0.2em;
+        }
+        .e{
+            margin: 0 2em;
+        }
+}
+
